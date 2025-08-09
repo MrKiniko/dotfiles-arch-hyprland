@@ -1,0 +1,133 @@
+{
+  "custom/arch": {
+    "format": "󰣇",
+    "tooltip": true,
+    "tooltip-format": "btw",
+    "on-click": "wofi --show drun"
+  },
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "warp-on-scroll": false,
+    "format": "{name}",
+    "show-empty": true,
+    "min-workspaces": 5
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-bluetooth": "{icon} {volume}%  {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "network": {
+    "format-wifi": "   {essid} ({signalStrength}%)",
+    "format-ethernet": "󰩠 {ipaddr}/{cidr}",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "Disconnected ⚠",
+    "on-click": "hyprctl dispatch exec 'kitty --class float-term -o initial_window_width=600 -o initial_window_height=800 nmtui'"
+  },
+  "custom/cpu": {
+  "exec": "~/.config/waybar/scripts/cpu.sh",
+  "interval": 1,
+  "format": "{}",
+  },
+  "custom/memory": {
+    "exec": "~/.config/waybar/scripts/memory.sh",
+    "interval": 1,
+    "format": "{}"
+  },
+  "custom/temperature": {
+    "exec": "~/.config/waybar/scripts/temperature.sh",
+    "interval": 1,
+    "format": "{}"
+  },
+  "custom/toggle-sensors": {
+    "exec": "echo ''", 
+    "on-click": "~/.config/waybar/scripts/sensors-toggle.sh"
+  },
+  "hyprland/language": {
+    "format": "  {}",
+    "format-en": "EN",
+    "format-es": "ES"
+  },
+  "backlight": {
+    "format": "{percent}% {icon}",
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}  {capacity}%",
+    "format-full": "{icon}  {capacity}%",
+    "format-charging": "\udb80\udc84  {capacity}%",
+    "format-plugged": "  {capacity}%",
+    "format-alt": "{time}  {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "battery#bat2": {
+    "bat": "BAT2"
+  },
+  "clock": {
+    "format": "{:%H:%M | %e %B} ",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "custom/prev": {
+    "format": "⏮",
+    "on-click": "playerctl previous",
+    "tooltip": false
+  },
+
+  "custom/playpause": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/playpause.sh",
+    "interval": 1,
+    "on-click": "playerctl play-pause",
+    "tooltip": false
+  },
+
+  "custom/next": {
+    "format": "⏭",
+    "on-click": "playerctl next",
+    "tooltip": false
+  },
+
+  "custom/nowplaying": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/nowplaying.sh",
+    "interval": 1,
+    "tooltip": false
+  },
+  "custom/notifications": {
+    "exec": "echo '⏼'",       // Aquí puedes poner un icono fijo (por ejemplo, FontAwesome)
+    "on-click": "swaync-client -t"
+  },
+  "custom/colorpicker": {
+    "exec": "echo '\udb83\udd31'",
+    "interval": 0,
+    "on-click": "~/.config/waybar/scripts/colorpicker.sh",
+    "tooltip": "Seleccionar color y copiar al portapapeles"
+  }
+}
