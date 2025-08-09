@@ -89,10 +89,15 @@
   "battery#bat2": {
     "bat": "BAT2"
   },
-  "clock": {
-    "format": "{:%H:%M | %e %B} ",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format-alt": "{:%Y-%m-%d}"
+  "custom/hora": {
+    "exec": "~/.config/waybar/scripts/hora.sh",
+    "interval": 1,
+    "on-click": "gnome-clocks"
+  },
+  "custom/fecha": {
+    "exec": "~/.config/waybar/scripts/fecha.sh",
+    "interval": 3600,
+    "on-click": "gnome-calendar"
   },
   "custom/prev": {
     "format": "⏮",
