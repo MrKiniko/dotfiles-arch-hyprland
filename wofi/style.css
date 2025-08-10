@@ -1,47 +1,44 @@
 /* ===================================================
-   // .        :  :::::::..    :::  .   ::::::.    :::.::: :::  .      ...     
+  // .        :  :::::::..    :::  .   ::::::.    :::.::: :::  .      ...     
   // ;;,.    ;;; ;;;;``;;;;   ;;; .;;,.;;;`;;;;,  `;;;;;; ;;; .;;,..;;;;;;;.  
   // [[[[, ,[[[[, [[[,/[[['   [[[[[/'  [[[  [[[[[. '[[[[[ [[[[[/' ,[[     \[[,
   // $$$$$$$$"$$$ $$$$$$c    _$$$$,    $$$  $$$ "Y$c$$$$$_$$$$,   $$$,     $$$
   // 888 Y88" 888o888b "88bo,"888"88o, 888  888    Y88888"888"88o,"888,_ _,88P
   // MMM  M'  "MMMMMMM   "W"  MMM "MMP"MMM  MMM     YMMMM MMM "MMP" "YMMMMMP" 
-   =================================================== */
+  =================================================== */
 
 * {
-  font-family: 'CaskaydiaCove Nerd Font', monospace;
-  font-size: 18px;
+  font-family: 'Hack Nerd Font', monospace;
+  font-size: 20px;
 }
 
 /* Window */
 window {
   margin: 0px;
   padding: 10px;
-  border: 2px solid #db0b3f;
+  border: 10px solid #db0b3f;
   border-radius: 8px;
-  background-color: #460414;
-
-  /* Imagen decorativa */
-  background-image: url("file:///home/kino/dev/config/dotfiles/wofi/background.jpeg");
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 64px 64px;
-  padding-left: 80px;
+  background-color: rgba(70, 4, 20, 1);
 }
 
-/* Inner Box */
+/* Outer Box con imagen lateral */
+#outer-box {
+  margin: 0;
+  padding: 0 0 0 350px; /* espacio para la imagen */
+  border: 5px;
+  background-color: rgba(70, 4, 20, 1);
+  background-image: url("/home/kino/dev/config/dotfiles/wofi/logo.png");
+  background-repeat: no-repeat;
+  background-size: 350px 350px;
+  background-position: 5px center;
+}
+
+/* Inner Box (lista de programas) */
 #inner-box {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: #460414;
-}
-
-/* Outer Box */
-#outer-box {
-  margin: 5px;
-  padding: 10px;
-  border: none;
-  background-color: #460414;
+  background-color: rgba(70, 4, 20, 1);
 }
 
 /* Scroll */
@@ -49,7 +46,7 @@ window {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: #460414;
+  background-color: rgba(70, 4, 20, 1);
 }
 
 /* Input */
@@ -59,7 +56,7 @@ window {
   border: none;
   border-radius: 0.1em;
   color: #db0b3f;
-  background-color: #460414;
+  background-color: rgba(70, 4, 20, 1);
 }
 
 #input image {
@@ -79,7 +76,7 @@ window {
 }
 
 #entry {
-  background-color: #460414;
+  background-color: rgba(70, 4, 20, 1);
 }
 
 #entry arrow {
