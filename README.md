@@ -21,7 +21,7 @@ Estos dotfiles han sido editados del proyecto https://github.com/luismendozamx/d
 
 ### Wofi
 
-![Wofi](img/wofi.png)
+![Wofi_screenshot](img/wofi.png)
 
 ### Swaync
 
