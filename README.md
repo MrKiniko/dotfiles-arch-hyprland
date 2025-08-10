@@ -18,3 +18,7 @@ Estos dotfiles han sido editados del proyecto https://github.com/luismendozamx/d
 ![Audio Waybar](img/audio-waybar.png)
 #### Varias funciones
 ![Módulo Waybar](img/right-module.png)
+
+### Wofi
+
+![Wofi](img/wofi.png)
