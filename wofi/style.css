@@ -27,7 +27,7 @@ window {
   padding: 0 0 0 350px; /* espacio para la imagen */
   border: 5px;
   background-color: rgba(70, 4, 20, 1);
-  background-image: url("/home/kino/dev/config/dotfiles/wofi/logo.png");
+  background-image: url("RUTA_A_LA_IMAGEN_QUE_DESEAS");
   background-repeat: no-repeat;
   background-size: 350px 350px;
   background-position: 5px center;
