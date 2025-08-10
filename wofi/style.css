@@ -9,7 +9,7 @@
 
 * {
   font-family: 'Hack Nerd Font', monospace;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Window */
@@ -25,9 +25,10 @@ window {
 #outer-box {
   margin: 0;
   padding: 0 0 0 350px; /* espacio para la imagen */
-  border: 5px;
+  border: 5px solid #db0b3f;
+  border-radius: 15px;
   background-color: rgba(70, 4, 20, 1);
-  background-image: url("RUTA_A_LA_IMAGEN_QUE_DESEAS");
+  background-image: url("/home/kino/dev/config/dotfiles/wofi/logo.png");
   background-repeat: no-repeat;
   background-size: 350px 350px;
   background-position: 5px center;
@@ -53,8 +54,8 @@ window {
 #input {
   margin: 5px 20px;
   padding: 10px;
-  border: none;
-  border-radius: 0.1em;
+  border: 1px solid #db0b3f;
+  border-radius: 15px;
   color: #db0b3f;
   background-color: rgba(70, 4, 20, 1);
 }
@@ -82,11 +83,13 @@ window {
 #entry arrow {
   border: none;
   color: #db0b3f;
+  border-radius: 15px;
 }
 
 /* Selected Entry */
 #entry:selected {
   border: 0.11em solid #db0b3f;
+  border-radius: 15px;
 }
 
 #entry:selected #text {
