@@ -23,6 +23,6 @@ Estos dotfiles han sido editados del proyecto https://github.com/luismendozamx/d
 
 ![Wofi](img/wofi.png)
 
-### Centro notificaciones Swaync
+### Swaync
 
 <img src="img/swaync.png" style="height: 700px;">
