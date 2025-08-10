@@ -7,34 +7,6 @@
   // MMM  M'  "MMMMMMM   "W"  MMM "MMP"MMM  MMM     YMMMM MMM "MMP" "YMMMMMP" 
    =================================================== */
 
-@define-color rosewater #f5e0dc;
-@define-color flamingo #f2cdcd;
-@define-color pink #f5c2c2;
-@define-color mauve #d99999;
-@define-color red #f38b8b;
-@define-color maroon #eba0a0;
-@define-color peach #f4a07a;
-@define-color yellow #f9e2af;
-@define-color green #e6c7c7;
-@define-color teal #e6b7b7;
-@define-color sky #f8cccc;
-@define-color sapphire #d98888;
-@define-color blue #cc6666;
-@define-color lavender #ff9999;
-@define-color text #f0d6d6;
-@define-color subtext1 #e8bcbc;
-@define-color subtext0 #d99d9d;
-@define-color overlay2 #c97b7b;
-@define-color overlay1 #b35c5c;
-@define-color overlay0 #993d3d;
-@define-color surface2 #7a2f2f;
-@define-color surface1 #661f1f;
-@define-color surface0 #4d1111;
-@define-color base #330000;
-@define-color mantle #2a0000;
-@define-color crust #1a0000;
-
-
 * {
   font-family: 'CaskaydiaCove Nerd Font', monospace;
   font-size: 18px;
