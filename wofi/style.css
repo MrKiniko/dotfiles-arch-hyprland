@@ -17,17 +17,17 @@ window {
   margin: 0px;
   padding: 10px;
   border: 10px solid #db0b3f;
-  border-radius: 8px;
-  background-color: rgba(70, 4, 20, 1);
+  border-radius: 15px;
+  background-color: rgba(70, 4, 20, 0.2);
 }
 
 /* Outer Box con imagen lateral */
 #outer-box {
-  margin: 0;
+  margin: 5px;
   padding: 0 0 0 350px; /* espacio para la imagen */
   border: 5px solid #db0b3f;
   border-radius: 15px;
-  background-color: rgba(70, 4, 20, 1);
+  background-color: rgba(70, 4, 20, 0.2);
   background-image: url("/home/kino/dev/config/dotfiles/wofi/logo.png");
   background-repeat: no-repeat;
   background-size: 350px 350px;
@@ -39,7 +39,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: rgba(70, 4, 20, 1);
+  background-color: rgba(70, 4, 20, 0);
 }
 
 /* Scroll */
@@ -47,7 +47,7 @@ window {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: rgba(70, 4, 20, 1);
+  background-color: rgba(70, 4, 20, 0);
 }
 
 /* Input */
@@ -57,7 +57,7 @@ window {
   border: 1px solid #db0b3f;
   border-radius: 15px;
   color: #db0b3f;
-  background-color: rgba(70, 4, 20, 1);
+  background-color: rgba(70, 4, 20, 0);
 }
 
 #input image {
@@ -77,7 +77,7 @@ window {
 }
 
 #entry {
-  background-color: rgba(70, 4, 20, 1);
+  background-color: rgba(70, 4, 20, 0);
 }
 
 #entry arrow {
