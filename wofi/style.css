@@ -16,19 +16,19 @@
 window {
   margin: 0px;
   padding: 10px;
-  border: 10px solid #0b3fdb;
+  border: 10px solid #d9db0b;
   border-radius: 15px;
-  background-color: rgba(4, 20, 70, 0.6);
+  background-color: rgba(210, 210, 20, 0.4);
 }
 
 /* Outer Box con imagen lateral */
 #outer-box {
   margin: 5px;
   padding: 0 0 0 350px; /* espacio para la imagen */
-  border: 5px solid #0b3fdb;
+  border: 5px solid #d9db0b;
   border-radius: 15px;
-  background-color: rgba(4, 20, 70, 0.6);
-  background-image: url("/home/kino/dev/config/dotfiles/wofi/logos/logo-azul.png");
+  background-color: rgba(210, 210, 20, 0.4);
+  background-image: url("/home/kino/dev/config/dotfiles/wofi/logos/logo-amarillo.png");
   background-repeat: no-repeat;
   background-size: 350px 350px;
   background-position: 5px center;
@@ -39,7 +39,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: rgba(4, 20, 70, 0);
+  background-color: rgba(210, 210, 20, 0);
 }
 
 /* Scroll */
@@ -47,55 +47,56 @@ window {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: rgba(4, 20, 70, 0);
+  background-color: rgba(210, 210, 20, 0);
 }
 
 /* Input */
 #input {
   margin: 5px 20px;
   padding: 10px;
-  border: 1px solid #0b3fdb;
+  border: 1px solid #d9db0b;
   border-radius: 15px;
-  color: #0b3fdb;
-  background-color: rgba(4, 20, 70, 0);
+  color: #d9db0b;
+  background-color: rgba(210, 210, 20, 0);
 }
 
 #input image {
     border: none;
-    color: #0b3fdb;
+    color: #d9db0b;
 }
 
 #input * {
-  outline: 4px solid #0b3fdb!important;
+  outline: 4px solid #d9db0b!important;
 }
 
 /* Text */
 #text {
   margin: 5px;
   border: none;
-  color: #0b3fdb;
+  color: #000000;
 }
 
 #entry {
-  background-color: rgba(4, 20, 70, 0);
+  background-color: rgba(210, 210, 20, 0);
 }
 
 #entry arrow {
   border: none;
-  color: #0b3fdb;
+  color: #d9db0b;
   border-radius: 15px;
 }
 
 /* Selected Entry */
 #entry:selected {
-  border: 0.11em solid #0b3fdb;
+  border: 0.11em solid #d9db0b;
   border-radius: 15px;
+  background-color: rgba(210, 210, 20, 0.5)
 }
 
 #entry:selected #text {
-  color: #0b3fdb;
+  color: #000000;
 }
 
 #entry:drop(active) {
-  background-color: #0b3fdb !important;
+  background-color: #d9db0b !important;
 }

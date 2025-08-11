@@ -7,7 +7,7 @@
 
 window#waybar {
     background: rgba(0, 0, 0, 0.295);
-    color: #c0d0f5;
+    color: #f5f3c0;
     font-family: "Hack Nerd Font Mono", feather;
     transition: background-color .5s;
 }
@@ -16,7 +16,7 @@ window#waybar {
 .modules-center,
 .modules-right
 {
-    background: #041446;
+    background: #464604;
     margin: 5px 5px;
     padding: 0 5px;
     border-radius: 15px;
@@ -88,7 +88,7 @@ window#waybar {
 #custom-memory:hover,
 #custom-temperature:hover,
 #custom-toggle-sensors:hover {
-    background: rgba(11, 63, 219, 0.902);
+    background: rgba(219, 219, 11, 0.902);
 }
 
 
@@ -99,7 +99,7 @@ window#waybar {
     feather;
   font-weight: 900;
   font-size: 13pt;
-  color: #c0d0f5;
+  color: #f5f3c0;
   border:none;
   border-radius: 15px;
 }
@@ -110,8 +110,8 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background: rgb(11, 63, 219);
-  color: #c0d0f5;
+  background: rgb(219, 219, 11);
+  color: #f5f3c0;
   box-shadow: none;
 }
 
@@ -122,7 +122,7 @@ window#waybar {
     transition: color .5s;
 }
 #custom-arch:hover {
-    color: rgb(11, 63, 219);
+    color: rgb(219, 219, 11);
 }
 
 #custom-prev,
@@ -136,8 +136,8 @@ window#waybar {
 #custom-prev:hover,
 #custom-playpause:hover,
 #custom-next:hover {
-    background: #0b3fdb;
-    color: #cdd6f4;
+    background: #d9db0b;
+    color: #f4f3cd;
 }
 
 #custom-nowplaying {
@@ -151,7 +151,7 @@ window#waybar {
 }
 
 #custom-notifications:hover {
-    color: rgb(11, 63, 219);
+    color: rgb(219, 219, 11);
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -162,6 +162,6 @@ window#waybar {
 }
 
 #custom-colorpicker:hover {
-    background: #0b3fdb;
-    color: #cdd6f4;
+    background: #d9db0b;
+    color: #f4f3cd;
 }
