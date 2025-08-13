@@ -67,3 +67,8 @@ alias kmusaprod="kubectl config use-context gke_musa-production_us-west1_musa-pr
 
 #bat
 alias cat="bat"
+alias lsd='eza --icons'
+alias grep='grep --color=auto'
+alias pool='clear && asciiquarium'
+alias tasks='btm'
+alias vban_in='vban_receptor -i 192.168.18.13 -p 6980 -s VBANTest -c 1,2 -q 0 &'
