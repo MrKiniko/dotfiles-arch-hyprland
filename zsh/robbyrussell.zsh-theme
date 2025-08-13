@@ -1,7 +1,11 @@
-PROMPT="%(?:%{$fg_bold[yellow]%}%1{➜%} :%{$fg_bold[yellow]%}%1{➜%} ) %{$fg[yellow]%}%c%{$reset_color%}"
+# Definir secuencia de escape para #0000ff
+COLOR_YELLOW="%{$(printf '\033[38;2;255;255;0m')%}"
+COLOR_YELLOW_BOLD="%{$(printf '\033[1;38;2;255;255;0m')%}"
+
+PROMPT="%(?:${COLOR_YELLOW_BOLD}%1{➜%} :${COLOR_YELLOW_BOLD}%1{➜%} ) ${COLOR_YELLOW}%c%{$reset_color%}"
 PROMPT+=' $(git_prompt_info)'
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[yellow]%}git:(%{$fg[yellow]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="${COLOR_YELLOW_BOLD}git:(${COLOR_YELLOW}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%}) %{$fg[yellow]%}%1{✗%}"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[yellow]%})"
+ZSH_THEME_GIT_PROMPT_DIRTY="${COLOR_YELLOW}) ${COLOR_YELLOW}%1{✗%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="${COLOR_YELLOW})"
