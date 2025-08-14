@@ -1,10 +1,9 @@
-@import url('../../.cache/wal/colors-waybar.css');
-@define-color mpris-album-art-overlay alpha(@background, 0.99);
-@define-color mpris-button-hover alpha(@background, 0.50);
-@define-color text @color15;
-@define-color bg alpha(@background,.99);
-@define-color bg-hover alpha(@background,.99);
-@define-color mycolor @color9;
+@define-color mpris-album-art-overlay alpha(#003300, 0.99);
+@define-color mpris-button-hover alpha(#003300, 0.50);
+@define-color text #d6f0d6;
+@define-color bg alpha(#003300,.99);
+@define-color bg-hover alpha(#003300,.99);
+@define-color mycolor #22b222;
 @define-color border-color alpha(@mycolor, 0.15);
 
 @keyframes fadeIn{
@@ -88,20 +87,20 @@
 
 .control-center .notification-row .notification-background .notification.critical .notification-content,
 .floating-notifications.background .notification-background .notification.critical .notification-content {
-    background-color: #680003;
+    background-color: #006800;
 
 }
 
 .control-center .notification-row .notification-background .notification.critical .notification-content image,
 .floating-notifications.background .notification-background .notification.critical .notification-content image{
     background-color: unset;
-    color: #680003;
+    color: #006800;
 
 }
 
 .control-center .notification-row .notification-background .notification.critical .notification-content label,
 .floating-notifications.background .notification-background .notification.critical .notification-content label {
-    color: #680003;
+    color: #006800;
 
 }
 .notification-content{
@@ -188,7 +187,7 @@
     font-size: initial;
     color: @text;
     text-shadow: none;
-    background: rgba(0, 102, 255,.3);
+    background: rgba(0, 255, 0, 0.3);
     border: none;
     box-shadow: none;
     border-radius: 12px;
@@ -305,7 +304,7 @@
     background: @mycolor;
 }
 .widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked label {
-    color: @background;
+    color: #003300;
 }
 
 .widget-menubar > box > .menu-button-bar > button {

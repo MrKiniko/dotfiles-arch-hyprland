@@ -16,19 +16,19 @@
 window {
   margin: 0px;
   padding: 10px;
-  border: 10px solid #db0b3f;
+  border: 10px solid #0bdb3f;
   border-radius: 15px;
-  background-color: rgba(70, 4, 20, 0.6);
+  background-color: rgba(4, 70, 20, 0.6);
 }
 
 /* Outer Box con imagen lateral */
 #outer-box {
   margin: 5px;
   padding: 0 0 0 350px; /* espacio para la imagen */
-  border: 5px solid #db0b3f;
+  border: 5px solid #0bdb3f;
   border-radius: 15px;
-  background-color: rgba(70, 4, 20, 0.6);
-  background-image: url("/home/kino/dev/config/dotfiles/wofi/logo.png");
+  background-color: rgba(4, 70, 20, 0.6);
+  background-image: url("/home/kino/dev/config/dotfiles/wofi/logos/logo-verde.png");
   background-repeat: no-repeat;
   background-size: 350px 350px;
   background-position: 5px center;
@@ -39,7 +39,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: rgba(70, 4, 20, 0);
+  background-color: rgba(4, 70, 20, 0);
 }
 
 /* Scroll */
@@ -47,55 +47,55 @@ window {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: rgba(70, 4, 20, 0);
+  background-color: rgba(4, 70, 20, 0);
 }
 
 /* Input */
 #input {
   margin: 5px 20px;
   padding: 10px;
-  border: 1px solid #db0b3f;
+  border: 1px solid #0bdb3f;
   border-radius: 15px;
-  color: #db0b3f;
-  background-color: rgba(70, 4, 20, 0);
+  color: #0bdb3f;
+  background-color: rgba(4, 70, 20, 0);
 }
 
 #input image {
     border: none;
-    color: #db0b3f;
+    color: #0bdb3f;
 }
 
 #input * {
-  outline: 4px solid #db0b3f!important;
+  outline: 4px solid #0bdb3f!important;
 }
 
 /* Text */
 #text {
   margin: 5px;
   border: none;
-  color: #db0b3f;
+  color: #0bdb3f;
 }
 
 #entry {
-  background-color: rgba(70, 4, 20, 0);
+  background-color: rgba(4, 70, 20, 0);
 }
 
 #entry arrow {
   border: none;
-  color: #db0b3f;
+  color: #0bdb3f;
   border-radius: 15px;
 }
 
 /* Selected Entry */
 #entry:selected {
-  border: 0.11em solid #db0b3f;
+  border: 0.11em solid #0bdb3f;
   border-radius: 15px;
 }
 
 #entry:selected #text {
-  color: #db0b3f;
+  color: #0bdb3f;
 }
 
 #entry:drop(active) {
-  background-color: #db0b3f !important;
+  background-color: #0bdb3f !important;
 }

@@ -72,4 +72,3 @@ alias grep='grep --color=auto'
 alias pool='clear && asciiquarium'
 alias tasks='btm'
 alias vban_in='vban_receptor -i 192.168.18.13 -p 6980 -s VBANTest -c 1,2 -q 0 &'
-
