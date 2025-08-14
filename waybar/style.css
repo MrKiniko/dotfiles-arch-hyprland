@@ -63,9 +63,8 @@ window#waybar {
     border-radius: 15px;
 }
 
-/*
+
 #idle_inhibitor:hover,
-*/
 #custom-hora:hover,
 #custom-fecha:hover,
 #battery:hover,
@@ -89,8 +88,12 @@ window#waybar {
 #custom-temperature:hover,
 #custom-toggle-sensors:hover {
     background: rgba(11, 219, 63, 0.902);
+    color: black;
 }
 
+#idle_inhibitor {
+    font-size: 24;
+}
 
 #workspaces button {
   background: transparent;
@@ -111,7 +114,7 @@ window#waybar {
 
 #workspaces button:hover {
   background: rgb(11, 219, 63);
-  color: #c0f5c0;
+  color: #000000;
   box-shadow: none;
 }
 
@@ -137,7 +140,7 @@ window#waybar {
 #custom-playpause:hover,
 #custom-next:hover {
     background: #0bdb3f;
-    color: #cdf4cd;
+    color: black;
 }
 
 #custom-nowplaying {
@@ -163,5 +166,5 @@ window#waybar {
 
 #custom-colorpicker:hover {
     background: #0bdb3f;
-    color: #cdf4cd;
+    color: black;
 }
